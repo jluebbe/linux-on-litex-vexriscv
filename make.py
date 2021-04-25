@@ -387,6 +387,8 @@ class ECPIX5(Board):
             "sata",
             "sdcard",
             "spiflash",
+        }, soc_constants={
+            "ETH_DYNAMIC_IP": None,
         }, bitstream_ext=".bit")
 
 # Colorlight i5 support ------------------------------------------------------------------------------------
