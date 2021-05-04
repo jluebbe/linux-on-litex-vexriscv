@@ -373,7 +373,7 @@ class ECPIX5(Board):
     SPIFLASH_DUMMY_CYCLES = 8
     soc_kwargs = {
         "sys_clk_freq" : int(50e6),
-        "l2_size"      : 2048, # Use Wishbone and L2 for memory accesses.
+        #"l2_size"      : 2048, # Use Wishbone and L2 for memory accesses.
     }
     def __init__(self):
         from litex_boards.targets import ecpix5
