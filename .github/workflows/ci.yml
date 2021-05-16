@@ -17,6 +17,10 @@ jobs:
             args: ''
           - board: 'ecpix5'
             args: ''
+          - board: 'ecpix5'
+            args: '--cpu-count 4'
+          - board: 'ecpix5'
+            args: '--cpu-count 2 --with-fpu'
           - board: 'de10nano'
     steps:
       # Checkout Repository
