@@ -14,9 +14,9 @@ jobs:
           - board: 'arty'
             args: ''
           - board: 'trellisboard'
-            args: ''
+            args: '--build'
           - board: 'ecpix5'
-            args: ''
+            args: '--build'
           - board: 'de10nano'
     steps:
       # Checkout Repository
